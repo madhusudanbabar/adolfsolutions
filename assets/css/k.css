@@ -1,0 +1,20 @@
+.mid-text{
+    font-size: 1.25rem;
+}
+.small-text{
+    font-size: 1rem;
+}
+
+.fw-mid{
+    font-weight: 500;
+}
+
+.k-header{
+    text-transform: capitalize;
+}
+
+:root{
+    --primary-color: #009688;
+    --color-blue: #372ee6;
+    --color-purple: #cf067f;
+}

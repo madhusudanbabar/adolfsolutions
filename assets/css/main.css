@@ -222,7 +222,7 @@ input, select, textarea {
   color: #555555; }
 
 a {
-  color: #ce1b28; }
+  color: #009688; }
 
 strong, b {
   color: #555555; }
@@ -2010,7 +2010,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(180deg, var(--color-blue) -80%, var(--color-purple) 80%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2419,6 +2419,7 @@ body {
   -ms-justify-content: space-between;
   justify-content: space-between;
   background: #111111;
+  background: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
@@ -2429,20 +2430,26 @@ body {
   width: 100%;
   z-index: 10001; }
   #header > .logo {
-    color: #ffffff;
+    color: #000;
     font-size: 1rem;
     font-weight: 600;
+    display: flex;
+    align-items: center;
     height: inherit;
     line-height: inherit;
     padding: 0 1.25rem;
     text-decoration: none; }
+    #header > .logo > img{
+      height: 100%;
+      padding: .3rem;
+    }
   #header > nav > a {
-    color: inherit;
+    color: #000;
     display: inline-block;
     padding: 0 0.75rem;
     text-decoration: none; }
     #header > nav > a:hover {
-      color: #ffffff; }
+      color: #000; }
     #header > nav > a[href="#menu"] {
       text-decoration: none;
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
