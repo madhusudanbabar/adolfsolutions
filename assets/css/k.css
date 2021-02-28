@@ -13,6 +13,34 @@
     text-transform: capitalize;
 }
 
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex > * {
+    /* display: block; */
+    margin: 0;
+    /* border: solid red 1px; */
+}
+
+.k-icons{
+    font-size: 2rem;
+    display: flex;
+    width: 2rem;
+    justify-content: center;
+}
+
+.m-r2 {
+    margin-right: 2rem;
+}
 :root{
     --primary-color: #009688;
     --color-blue: #372ee6;

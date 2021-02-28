@@ -157,7 +157,8 @@ h3 {
   font-size: 1.25rem; }
 
 h4 {
-  font-size: 1rem; }
+  font-size: 1rem;
+font-weight: 500; }
 
 h5 {
   font-size: 0.9rem; }
@@ -702,7 +703,22 @@ table.alt tbody tr td {
     border-radius: 4px;
     height: 100%;
     padding: 3rem;
+    transition: ease-in .1s all;
     text-align: center; }
+
+    /* krypton */
+    .content:hover{
+      background: var(--color-primary);
+      color: white;
+    }
+
+    .content:hover h3 {
+      color: white;
+    }
+
+    .content:hover .icon {
+      color: white;
+    }
     .highlights .content .icon {
       font-size: 5rem; }
   .highlights > div > :last-child {
@@ -2343,7 +2359,9 @@ ul.icons {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
     #footer a:hover {
-      color: #ce1b28; }
+      /* color: #86797a; */
+      color: var(--primary-color);
+    }
   #footer .content {
     display: -moz-flex;
     display: -webkit-flex;
