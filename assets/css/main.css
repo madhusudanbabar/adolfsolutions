@@ -2226,7 +2226,7 @@ ul.icons {
   color: white;
   /* background-color: #111111; */
   /* color: rgba(255, 255, 255, 0.5); */
-  padding: 8rem 0 6rem 0 ; }
+  padding: 6rem 0 0 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
   #footer a {
@@ -2362,7 +2362,7 @@ ul.icons {
     text-decoration: none; }
     #footer a:hover {
       /* color: #86797a; */
-      color: var(--primary-color);
+      color: white;
     }
   #footer .content {
     display: -moz-flex;
@@ -2380,11 +2380,11 @@ ul.icons {
     border-top: 1px solid;
     font-size: 0.8rem;
     opacity: 0.5;
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 0;
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 6rem 0 0 0 ; } }
   @media screen and (max-width: 980px) {
     #footer .content {
       -moz-flex-wrap: wrap;
