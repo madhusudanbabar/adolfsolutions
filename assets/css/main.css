@@ -2045,7 +2045,7 @@ ul.icons {
       display: none; } }
   @media screen and (max-width: 736px) {
     #banner {
-      height: auto !important;
+      height: 80vh !important;
       min-height: 0;
       padding: 4rem 2rem 4rem 2rem; }
       #banner .inner {
